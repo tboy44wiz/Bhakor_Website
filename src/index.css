@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-appPrimary-dark: #FFAA2C;
+    --color-appPrimary-light: #E7EBF0; /* #B6C3D1 #9DAFC1 | #CED7E0 | #E7EBF0 */
+    --color-appSecondary-dark: #00A759;
+    --color-appSecondary-light: #D5F4E3;
+    --color-appTertiary: #D5B07B;
+
+    --font-openSans: "Open Sans", "sans-serif";
+}
