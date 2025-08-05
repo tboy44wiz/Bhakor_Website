@@ -58,18 +58,18 @@ const SpecialtyComponent = () => {
     ];
 
     return (
-        <section className="h-auto w-full pt-24 pb-20 bg-white">
-            <div className="container mx-auto px-8">
+        <section className="h-auto w-full pt-12 lg:pt-24 pb-10 lg:pb-20 bg-white">
+            <div className="container mx-auto px-5 lg:px-8">
                 
                 {/*==== Title ====*/}
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3">
                     <div className="h-0.5 w-12 bg-appSecondary-dark" />
                     <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">
                         "Our Specialties"
                     </span>
                 </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-tight">
-                    From the Well to the Pump, We’ve Got<br />You Covered
+                <h2 className="mt-3 lg:mt-6 text-3xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-norlmal">
+                    From the Well to the Pump, We’ve Got <br className="hidden lg:block" />You Covered
                 </h2>
 
                 {/*==== Description ====*/}
@@ -82,11 +82,11 @@ const SpecialtyComponent = () => {
                 {/*==== Specialties Cards ====*/}
                 <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                     {specialties.map((specialty, index) => (
-                        <div key={index} className="p-4 border border-gray-200 rounded-3xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
+                        <div key={index} className="p-4 border border-gray-200 rounded-xl lg:rounded-3xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
                             <img
                                 src={specialty.image}
                                 alt={specialty.title}
-                                className="h-68 w-full object-cover rounded-2xl"
+                                className="h-52 lg:h-68 w-full object-cover rounded-lg lg:rounded-2xl"
                             />
                             <h3 className="mt-6 text-lg font-semibold">
                                 {specialty.title}

@@ -3,8 +3,8 @@ import OurServisesIcon from "@/assets/images/our_service_icon.png";
 
 const MissionVisionAndServicesComponent = () => {
   return (
-    <section className="h-auto w-full pt-20 pb-10 relative flex justify-center bg-white">
-        <div className="container px-8 absolute -top-14 grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+    <section className="h-auto w-full lg:pt-20 pb-10 relative flex justify-center bg-white">
+        <div className="container lg:px-8 lg:absolute -top-14 grid grid-cols-1 md:grid-cols-2 items-center justify-center">
             <div className="h-full col-span-1 px-10 py-10 flex flex-col items-center justify-center bg-[#FEEED3]">
                 <div className="h-15 w-15 flex items-center justify-center bg-appPrimary-dark rounded-full">
                     <img src={ MissionAndVissionIcon } alt="Mission & Vision Icon" className="h-10 w-10" />

@@ -6,35 +6,37 @@ import { ArrowRight } from "solar-icon-set";
 
 const BhakorSubsidiariesComponent = () => {
     return (
-        <section className="h-auto w-full pt-24 pb-20 px-4 bg-gray-50">
-            <div className="container mx-auto px-8">
+        <section className="h-auto w-full pt-12 lg:pt-24 pb-10 lg:pb-20 bg-gray-50">
+            <div className="container mx-auto px-5 lg:px-8">
                 {/* Header Section */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 items-center">
                 
-                {/*==== Bhakor's Subsidiaries ====*/}
-                <div>
-                    <div className="flex items-center gap-3">
-                        <div className="h-0.5 w-12 bg-appSecondary-dark" />
-                        <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">
-                            Bhakor's Subsidiaries
-                        </span>
+                    {/*==== Bhakor's Subsidiaries ====*/}
+                    <div>
+                        <div className="flex items-center gap-3">
+                            <div className="h-0.5 w-12 bg-appSecondary-dark" />
+                            <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">
+                                Bhakor's Subsidiaries
+                            </span>
+                        </div>
+                        <h2 className="mt-3 lg:mt-6 text-3xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-normal">
+                            Conventional Oil & Gas <br className="hidden lg:block" />Advocates <br className="lg:hidden" />With Efficient <br className="hidden lg:block" />& Sustainable Solutions
+                        </h2>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-tight">
-                        Conventional Oil & Gas Advocates With Efficient & Sustainable Solutions
-                    </h2>
-                </div>
 
-                {/* Right Column - Description */}
-                <div className="pl-8 py-3 border-l-2 border-gray-300 text-left">
-                    <p className="pr-5 text-lg leading-9">
-                        Bhakor Group distributes Gas products in Nigeria and is duly registered 
-                        to sell Gas nationwide and beyond. Bhakor has in its kitty fleets of 
-                        Bridger trucks for bulk delivery to all parts of the country for both 
-                        commercial and industrial applications and operates a fleet of delivery 
-                        vehicles for door-to-door gas distribution to meet the daily demands of 
-                        domestic end-users within the country.
-                    </p>
-                </div>
+                    <hr className="w-full mt-5 lg:hidden border-[1px] border-gray-300" />
+
+                    {/* Right Column - Description */}
+                    <div className="lg:pl-8 py-3 lg:border-l-2 border-gray-300 text-left">
+                        <p className="pr-5 text-lg leading-9">
+                            Bhakor Group distributes Gas products in Nigeria and is duly registered 
+                            to sell Gas nationwide and beyond. Bhakor has in its kitty fleets of 
+                            Bridger trucks for bulk delivery to all parts of the country for both 
+                            commercial and industrial applications and operates a fleet of delivery 
+                            vehicles for door-to-door gas distribution to meet the daily demands of 
+                            domestic end-users within the country.
+                        </p>
+                    </div>
                 </div>
 
                 {/* Subsidiaries Cards */}

@@ -9,7 +9,7 @@ import PartnerSix from "../../../../assets/images/partners/transgaz_logo.png";
 
 const PartnersComponent = () => {
   return (
-    <section className="h-auto w-full pt-60 pb-10 bg-white">
+    <section className="h-auto w-full hidden lg:block pt-60 pb-10 bg-white">
         <div className="container mx-auto px-5 flex items-center justify-around">
             <img src={PartnerOne} alt="Partner One" className="h-24 w-auto bg-amber-300" />
             <img src={PartnerTwo} alt="Partner Two" className="h-24 w-auto" />

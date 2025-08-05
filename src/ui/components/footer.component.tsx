@@ -16,9 +16,9 @@ const FooterComponent = () => {
 
   return (
     <footer
-        className="h-auto w-full pt-16 pb-5 relative bg-cover bg-center bg-no-repeat text-white"
+        className="h-auto w-full px-5 lg:px-0 pt-16 pb-5 relative bg-cover bg-center bg-no-repeat text-white"
         style={{
-            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${FooterBackground})`,
+            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(${FooterBackground})`,
         }}
     >
       <div className="container mx-auto text-left">
@@ -34,7 +34,7 @@ const FooterComponent = () => {
             </p>
 
             {/* Office Address */}
-            <div className="mt-14">
+            <div className="mt-8 lg:mt-14">
               <h4 className="font-bold flex items-center gap-2 text-lg">
                 <MapPoint color="#FFAA2C" size={22} /> OFFICE ADDRESS
               </h4>
@@ -44,7 +44,7 @@ const FooterComponent = () => {
             </div>
 
             {/* Hours of Operation */}
-            <div className="mt-14">
+            <div className="mt-8 lg:mt-14">
               <h4 className="font-bold flex items-center gap-2 text-lg">
                 <ClockCircle color="#FFAA2C" size={22} /> HOURS OF OPERATION
               </h4>
@@ -69,7 +69,7 @@ const FooterComponent = () => {
             </ul>
 
             {/* Social Links */}
-            <div className="mt-16">
+            <div className="mt-8 lg:mt-16">
               <h4 className="font-bold text-lg mb-2">SOCIAL LINKS</h4>
               <div className="mt-5 flex space-x-4 text-xl">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -110,12 +110,12 @@ const FooterComponent = () => {
           {/*==== Announcement ====*/}
           <div className="md:col-span-2 items-start">
             <h4 className="text-xl font-bold">ANNOUNCEMENT</h4>
-            <p className="mt-5 leading-8">
+            <p className="mt-2 lgmt-5 leading-8">
               This is to inform all visitors that we are presently upgrading our online web portal. Updated content is currently being procured. Please bear with the management team.
             </p>
 
-            <h4 className="mt-14 text-xl font-bold">WEB DEVELOPMENT</h4>
-            <p className="mt-5 leading-8">
+            <h4 className="mt-8 lg:mt-14 text-xl font-bold">WEB DEVELOPMENT</h4>
+            <p className="mt-2 lg:mt-5 leading-8">
               Do you need a website up and running quickly? Then Bhakor Consult Ltd. is just what you are looking for.
               Hurry now to contact us <span className="text-green-400">(+2348036007563)</span> or via our website: <span className="text-green-400">www.bhakor.com.ng</span> or email: <span className="text-green-400">info@bhakor.com</span>.
               <br />

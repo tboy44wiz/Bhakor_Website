@@ -53,17 +53,17 @@ const GalleryComponent = () => {
     };
 
     return (
-        <section className="h-auto w-full py-24 bg-white">
-            <div className="container mx-auto px-8">
+        <section className="h-auto w-full py-16 lg:py-24 bg-white">
+            <div className="container mx-auto px-5 lg:px-8">
 
                 {/*==== Title ====*/}
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3">
                     <div className="h-0.5 w-12 bg-appSecondary-dark" />
                     <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">
                         OUR GALLERY
                     </span>
                 </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-tight">
+                <h2 className="mt-3 lg:mt-6 text-3xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-normal">
                     Oil and Gas Innovators: Driving<br />Progress in the Industry
                 </h2>
 
@@ -76,7 +76,7 @@ const GalleryComponent = () => {
                     <div className="h-auto w-full plx-7 flex gap-6 justify-center relative">
                         {/* Previous image (left of center) */}
                         {galleryImages[current - 1 < 0 ? galleryImages.length - 1 : current - 1] && (
-                            <div className="mx-auto transition-all duration-300 opacity-60 scale-95 hidden md:block relative cursor-pointer">
+                            <div className="mx-auto transition-all duration-300 opacity-60 scale-95 hidden md:block relative cursor-pointer z-10">
                                 <img
                                     src={galleryImages[current - 1 < 0 ? galleryImages.length - 1 : current - 1].src}
                                     alt={galleryImages[current - 1 < 0 ? galleryImages.length - 1 : current - 1].alt}
@@ -91,13 +91,13 @@ const GalleryComponent = () => {
                         )}
 
                         {/* Current image (center) */}
-                        <div className="mx-auto transition-all duration-300 opacity-100 relative rounded-2xl cursor-pointer group overflow-hidden z-10">
+                        <div className="lg:mx-auto transition-all duration-300 opacity-100 relative rounded-lg lg:rounded-2xl cursor-pointer group overflow-hidden z-0">
                             <img
                                 src={galleryImages[current].src}
                                 alt={galleryImages[current].alt}
-                                className="w-full h-[360px] md:w-[520px] scale-100 rounded-2xl object-cover transition-transform duration-1000 group-hover:scale-120"
+                                className="h-[360px] w-full lg:w-[520px] scale-100 rounded-lg lg:rounded-2xl object-cover transition-transform duration-1000 group-hover:scale-120"
                             />
-                            <div className="absolute inset-0 rounded-2xl"
+                            <div className="absolute inset-0 rounded-lg lg:rounded-2xl"
                                 style={{
                                     background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)"
                                 }}
@@ -117,7 +117,7 @@ const GalleryComponent = () => {
 
                         {/* Next image (right of center) */}
                         {galleryImages[(current + 1) % galleryImages.length] && (
-                            <div className="mx-auto transition-all duration-300 opacity-60 scale-95 hidden md:block relative cursor-pointer">
+                            <div className="mx-auto transition-all duration-300 opacity-60 scale-95 hidden md:block relative cursor-pointer z-10">
                                 <img
                                     src={galleryImages[(current + 1) % galleryImages.length].src}
                                     alt={galleryImages[(current + 1) % galleryImages.length].alt}
