@@ -1,5 +1,5 @@
 import { ArrowRight } from "solar-icon-set";
-import HeroBackground from "../../../../assets/images/hero_background.png";
+import HeroBackground from "../../../../assets/images/home_hero_background.png";
 
 const HeroComponent = () => {
   return (
