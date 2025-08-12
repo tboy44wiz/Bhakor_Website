@@ -8,7 +8,7 @@ import AboutImageFour from "@/assets/images/about_image_4.jpg";
 
 const AboutUsComponent = () => {
     return (
-        <div className="h-auto w-full py-5 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div className="h-auto w-full pb-10 lg:pb-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
             {/*==== Image Grid Section ====*/}
             <div className="h-full w-full grid grid-cols-12 gap-2.5 lg:gap-4 items-end">

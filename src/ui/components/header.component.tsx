@@ -13,7 +13,7 @@ const navLinks = [
     label: "Bhakor Logistics"
   },
   {
-    to: "/services",
+    to: "/consults",
     label: "Bhakor Consult"
   },
   {

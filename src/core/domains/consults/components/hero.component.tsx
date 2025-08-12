@@ -13,10 +13,11 @@ const HeroComponent = () => {
         <div className="container px-3 lg:px-20 pb-5 flex flex-col-reverse lg:flex-row items-center justify-end">
 
           <div className="xl:h-[420px] w-full lg:w-[34%] lg:mt-10 px-2 lg:px-10 py-8 lg:py-5 lg:absolute flex flex-col justify-center items-start lg:left-[13%] text-left text-black bg-white z-10">
-            <h3 className="text-2xl xl:text-4xl font-bold">Bhakor Logistics</h3>
+            <h3 className="text-2xl xl:text-4xl font-bold">Bhakor Consults</h3>
             <p className="mt-4 text-base lg:text-lg leading-7 xl:leading-9">
-              Bhakor Logistics Limited is a part of the Bhakor Group with a mandate to promote Gas commercialization, 
-              increase gas penetration, and stimulate gas industrialization in Nigeria.
+              As a subsidiary of Bhakor Group, Bhakor Consult Ltd is dedicated to advancing Nigeria’s oil and gas sector through streamlined offtake solutions, 
+              focused domestic LPG distribution, and expert consultancy services. With a deep understanding of the Nigerian energy landscape, 
+              we bring efficiency, compliance, and sustainability to every partnership we create.
             </p>
 
             <button className="mt-5 xl:mt-7 px-8 py-3 hidden md:flex items-center bg-appSecondary-dark text-white rounded-md">

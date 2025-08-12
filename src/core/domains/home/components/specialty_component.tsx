@@ -65,7 +65,7 @@ const SpecialtyComponent = () => {
                 <div className="flex items-center gap-3">
                     <div className="h-0.5 w-12 bg-appSecondary-dark" />
                     <span className="text-green-600 font-semibold text-sm tracking-wider uppercase">
-                        "Our Specialties"
+                        Our Specialties
                     </span>
                 </div>
                 <h2 className="mt-3 lg:mt-6 text-3xl md:text-5xl font-bold text-left text-gray-900 tracking-wide leading-norlmal">

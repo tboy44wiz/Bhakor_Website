@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight } from "solar-icon-set";
 import OurSpecialtyComponent from "./our_services/our_specialty.component";
 import FuturePlannedProjectsComponent from "./future_planned/future_planned_projects.component";
 
-const LogisticsTabWrapperComponent = () => {
+const ConsultsTabWrapperComponent = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     const tabs = [
@@ -42,7 +42,6 @@ const LogisticsTabWrapperComponent = () => {
         >
             <div className="container mx-auto px-3 lg:px-16 lg:pt-10 pb-5 flex flex-col xl:flex-row items-start justify-between gap-x-10">
 
-                {/*==== Navigation Tab ====*/}
                 <div className="h-full w-full xl:w-[20%] mt-5 lg:mt-26">
                     {/*==== Tabs List (Desktop) =====*/}
                     <div className="hidden xl:block">
@@ -118,4 +117,4 @@ const LogisticsTabWrapperComponent = () => {
     );
 };
 
-export default LogisticsTabWrapperComponent;
+export default ConsultsTabWrapperComponent;
