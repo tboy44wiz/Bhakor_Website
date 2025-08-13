@@ -17,7 +17,7 @@ const navLinks = [
     label: "Bhakor Consult"
   },
   {
-    to: "/contact",
+    to: "/energy_services",
     label: "Bhakor Energy Services"
   }
 ];
@@ -28,14 +28,23 @@ const HeaderComponent = () => {
   return (
     <header className="w-full shadow-md fixed top-0 left-0 right-0 bg-white z-50">
       <div className="container mx-auto px-5 py-4 flex justify-between items-center">
-        <img src={BhakorLogo} alt="Bhakor Logo" className="h-16 lg:h-14 w-auto" />
+        <img
+          src={BhakorLogo}
+          alt="Bhakor Logo"
+          className="h-16 lg:h-14 w-auto"
+        />
 
         {/*==== Hamburger Button ====*/}
         <button
           onClick={() => setMobileMenuOpen(true)}
           className="p-2 lg:hidden flex items-center bg-appSecondary-dark text-white rounded-md"
         >
-          <HamburgerMenu color="#FFFFFF" size={32} iconStyle="Linear" className="lg:hidden" />
+          <HamburgerMenu
+            color="#FFFFFF"
+            size={32}
+            iconStyle="Linear"
+            className="lg:hidden"
+          />
         </button>
 
         {/*==== Mobile Navigation Menu ====*/}
@@ -50,7 +59,9 @@ const HeaderComponent = () => {
             onClick={() => setMobileMenuOpen(false)}
             className="h-10 w-10 absolute top-4 right-4 lg:hidden flex items-center justify-center cursor-pointer"
           >
-            <p className="font-light text-5xl text-appSecondary-dark">&times;</p>
+            <p className="font-light text-5xl text-appSecondary-dark">
+              &times;
+            </p>
           </button>
 
           {navLinks.map((link) => (
@@ -70,18 +81,22 @@ const HeaderComponent = () => {
         </nav>
 
         {/*==== Desktop Navigation Menu ====*/}
-        <nav className="space-x-6 hidden md:block">
+        <nav className="space-x-6 hidden lg:block">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
-              className="hover:text-green-600"
+              className={({ isActive }) =>
+                `hover:text-green-600 ${
+                  isActive ? "text-green-600 font-semibold" : "text-gray-800"
+                }`
+              }
             >
               {link.label}
             </NavLink>
           ))}
         </nav>
-        <button className="px-4 py-2 hidden md:flex items-center bg-appPrimary-dark text-white rounded-md">
+        <button className="px-4 py-2 hidden lg:flex items-center bg-appPrimary-dark text-white rounded-md">
           Get A Quote
           <ArrowRight size={20} iconStyle="Linear" className="ml-2" />
         </button>
