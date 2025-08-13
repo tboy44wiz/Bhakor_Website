@@ -1,11 +1,7 @@
 import { useState } from "react";
 import AboutUsComponent from "./about_us/about_us.component";
-import OurMissionAndVisionComponent from "./about_us/our_mission.component";
-import OurMissionAndVisionBackground from "@/assets/images/consult/consult_background.png";
-import ExpertConsultingComponent from "./about_us/expert_consult.component";
 import { ArrowLeft, ArrowRight } from "solar-icon-set";
-import FuturePlannedProjectsComponent from "./our_industries/future_planned_projects.component";
-import SpecializedSolutionComponent from "./our_services/specialized_solution.component";
+import ConventionalOilAndGasComponent from "./our_services/conventional_oil_and_gas.component";
 
 const ConsultsTabWrapperComponent = () => {
     const [activeTab, setActiveTab] = useState(0);
@@ -13,7 +9,6 @@ const ConsultsTabWrapperComponent = () => {
     const tabs = [
       { id: 1, title: "About Us" },
       { id: 2, title: "Our Services" },
-      { id: 3, title: "Our Industries" },
     ];
     const handleTabChange = (id:number) => {
         setActiveTab(id);
@@ -33,12 +28,6 @@ const ConsultsTabWrapperComponent = () => {
     return (
       <section
         className="h-auto w-full"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(${OurMissionAndVisionBackground})`,
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
       >
         <div className="container mx-auto px-3 lg:px-16 lg:pt-10 pb-5 flex flex-col xl:flex-row items-start justify-between gap-x-10">
           <div className="h-full w-full xl:w-[20%] mt-5 lg:mt-26">
@@ -104,16 +93,10 @@ const ConsultsTabWrapperComponent = () => {
             {activeTab === 0 ? (
               <>
                 <AboutUsComponent />
-                <OurMissionAndVisionComponent />
-                <ExpertConsultingComponent />
-              </>
-            ) : activeTab === 1 ? (
-              <>
-                <SpecializedSolutionComponent />
               </>
             ) : (
               <>
-                <FuturePlannedProjectsComponent />
+                <ConventionalOilAndGasComponent />
               </>
             )}
           </div>
