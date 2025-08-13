@@ -7,7 +7,7 @@ import EnergyServiceCylinder from "@/assets/images/energy_services/energy_cylind
 const AboutUsComponent = () => {
   return (
     <>
-      <section className="pt-25 h-auto container mx-auto">
+      <section className="mt-5 lg:mt-25 h-auto container mx-auto">
         <div>
           {/*==== Title ====*/}
           <div className="flex items-center gap-3">
@@ -16,7 +16,7 @@ const AboutUsComponent = () => {
               ABOUT US
             </span>
           </div>
-          <h2 className="mt-3 lg:mt-6 text-3xl md:text-5xl font-bold text-left text-gray-900 md:leading-15">
+          <h2 className="mt-3 lg:mt-6 text-2xl md:text-5xl font-bold text-left text-gray-900 md:leading-15">
             Who We Are
           </h2>
         </div>
@@ -37,7 +37,7 @@ const AboutUsComponent = () => {
           </div>
 
           {/*==== Content Section ====*/}
-          <div className="lg:text-sm mt-25 md:mt-45 lg:mt-0">
+          <div className="lg:text-sm mt-36 md:mt-45 lg:mt-0">
             {/* Description */}
             <p className=" lg:pe-6 text-justify leading-8">
               Bhakor Energy, a subsidiary of Bhakor Group, is dedicated to

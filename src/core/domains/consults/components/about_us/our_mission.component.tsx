@@ -21,7 +21,7 @@ const OurMissionAndVisionComponent = () => {
                     Our Mission
                   </h1>
                 </div>
-                <p className="mt-2 text-gray-800 text-base text-center leading-8">
+                <p className="mt-2 text-gray-800 text-base text-justify lg:text-left leading-8">
                   Our mission is to transform Nigeria’s oil and gas industry
                   through specialized offtake services and consultancy
                   expertise, delivering impactful solutions that enhance energy
@@ -40,7 +40,7 @@ const OurMissionAndVisionComponent = () => {
                     Our Vision
                   </h1>
                 </div>
-                <p className="mt-2 text-gray-800 text-base text-center leading-8">
+                <p className="mt-2 text-gray-800 text-base text-justify lg:text-left leading-8">
                   Our vision is to be a leader in the global oil and gas
                   consultancy space, recognized for our contribution to the
                   industrialization and advancement of the Nigerian gas sector.

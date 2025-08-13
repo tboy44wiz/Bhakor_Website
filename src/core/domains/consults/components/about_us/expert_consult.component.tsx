@@ -8,19 +8,17 @@ const ExpertConsultingComponent = () => {
 
     return (
       <section className="h-auto w-full pt-12 lg:pt-16 pb-10 lg:pb-20 relative flex items-center justify-center">
-        <div className="container mx-auto px-5 lg:px-0">
+        <div className="container mx-autol g:px-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
             {/*==== Content Section ====*/}
-            <div className="mt-4 lg:mt-0space-y-8">
-              <div>
-                <h2 className="mt-3 lg:mt-6 text-3xl 2xl:text-4xl font-bold text-left text-gray-900 tracking-wide leading-normal">
-                  Expert Consulting Solutions Tailored for the Oil and Gas
-                  Industry
-                </h2>
-              </div>
+            <div className="space-y-8">
+              <h2 className="lg:mt-6 text-3xl 2xl:text-4xl font-bold text-left text-gray-900 tracking-wide leading-normal">
+                Expert Consulting Solutions Tailored for the Oil and Gas
+                Industry
+              </h2>
 
               {/* Description */}
-              <p className="mt-5 lg:pe-10 text-left leading-8">
+              <p className="mt-5 lg:pe-10 text-justify lg:text-left leading-8">
                 At Bhakor Consult, our consulting services are the cornerstone
                 of our operations, designed to deliver tailored solutions to
                 meet the unique challenges of the oil and gas industry.

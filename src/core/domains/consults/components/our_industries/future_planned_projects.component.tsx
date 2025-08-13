@@ -55,7 +55,7 @@ const FuturePlannedProjectsComponent = () => {
         <h2 className="lg:w-1/2 mt-2 lg:mt-0 text-2xl md:text-4xl font-bold text-left text-gray-900 tracking-wide leading-8 lg:leading-[3rem]">
           The Best At Providing Oil and Gas Services in Nigeria
         </h2>
-        <p className="lg:w-1/2 mt-4 lg:mt-0 text-gray-800 text-left text-base leading-7">
+        <p className="lg:w-1/2 mt-4 lg:mt-0 text-gray-800 text-justify lg:text-left text-base leading-7">
           Bhakor Consult serves a diverse array of industries, providing
           specialised expertise and innovative solutions to meet the complex
           needs of Nigeria’s evolving energy landscape. Our deep industry
@@ -82,7 +82,7 @@ const FuturePlannedProjectsComponent = () => {
               {project.number}
             </p>
             <p className="mt-3 font-semibold text-left">{project.title}</p>
-            <p className="mt-2 text-gray-800 text-left text-base leading-7">
+            <p className="mt-2 text-gray-800 text-justify lg:text-left text-base leading-7">
               {project.desc}
             </p>
           </div>
@@ -107,7 +107,7 @@ const FuturePlannedProjectsComponent = () => {
               {project.number}
             </p>
             <p className="mt-3 font-semibold text-left">{project.title}</p>
-            <p className="mt-2 text-gray-800 text-left text-base leading-7">
+            <p className="mt-2 text-gray-800 text-justify lg:text-left text-base leading-7">
               {project.desc}
             </p>
           </div>
@@ -126,7 +126,7 @@ const FuturePlannedProjectsComponent = () => {
             {projects[6].number}
           </p>
           <p className="mt-3 font-semibold text-left">{projects[6].title}</p>
-          <p className="mt-2 text-gray-800 text-left text-base leading-7">
+          <p className="mt-2 text-gray-800 text-justify lg:text-left text-base leading-7">
             {projects[6].desc}
           </p>
         </div>

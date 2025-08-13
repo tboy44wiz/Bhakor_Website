@@ -4,7 +4,7 @@ import AboutImageOne from "@/assets/images/consult/consult_image_1.png";
 const AboutUsComponent = () => {
     return (
       <>
-        <section className="pt-25 h-auto container mx-auto">
+        <section className="mt-5 lg:mt-25 h-auto container mx-auto">
           <div>
             {/*==== Title ====*/}
             <div className="flex items-center gap-3">
@@ -13,7 +13,7 @@ const AboutUsComponent = () => {
                 ABOUT US
               </span>
             </div>
-            <h2 className="mt-3 lg:mt-6 text-3xl lg:text-4xl 2xl:text-5xl font-bold text-left text-gray-900 md:leading-11">
+            <h2 className="mt-3 lg:mt-6 text-2xl lg:text-4xl 2xl:text-5xl font-bold text-left text-gray-900 md:leading-11">
               A Leading Player in the Oil and Gas Industry. <br className="hidden 2xl:block" /> We’re
               Constantly Pushing the Boundaries
             </h2>
@@ -26,7 +26,7 @@ const AboutUsComponent = () => {
               className="h-[385px] md:h-[624px] lg:h-[510px] w-full"
             />
             {/*==== Content Section ====*/}
-            <div className="text-start 2xl:text-lg md:leading-7 2xl:leading-8">
+            <div className="text-justify lg:text-left 2xl:text-lg md:leading-7 2xl:leading-8">
               <h1>
                 Bhakor Consult, a prominent division of the Bhakor Group, is
                 dedicated to Oil and Gas Consulting, Business Process

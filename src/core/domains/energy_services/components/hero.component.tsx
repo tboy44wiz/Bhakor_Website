@@ -12,7 +12,7 @@ const HeroComponent = () => {
       <div className="container px-3 lg:px-20 pb-5 flex flex-col-reverse lg:flex-row items-center justify-end">
         <div className="xl:h-[320px] h-[300px] w-full lg:w-[34%] lg:mt-10 px-2 lg:px-10 py-8 lg:py-5 lg:absolute flex flex-col justify-center items-start lg:left-[13%] text-left text-black bg-white z-10">
           <h3 className="text-2xl xl:text-4xl font-bold">Bhakor Energy</h3>
-          <p className="mt-4 text-base lg:text-lg leading-7 xl:leading-9">
+          <p className="mt-4 text-justify lg:text-left text-base lg:text-lg leading-7 xl:leading-9">
             Welcome to Bhakor Energy, a leading force in Nigeria's oil and gas
             sector. We specialize in safe, efficient, and reliable services and
             bring energy solutions to every corner of the nation.

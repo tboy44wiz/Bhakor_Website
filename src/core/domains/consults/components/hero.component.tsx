@@ -14,7 +14,7 @@ const HeroComponent = () => {
           <h3 className="text-2xl xl:text-4xl font-bold">
             Welcome To Bhakor Consult
           </h3>
-          <p className="mt-4 text-base md:text-md xl:text-lg leading-7 xl:leading-9">
+          <p className="mt-4 text-justify lg:text-left text-base md:text-md xl:text-lg leading-7 xl:leading-9">
             As a subsidiary of Bhakor Group, Bhakor Consult Ltd is dedicated to
             advancing Nigeria’s oil and gas sector through streamlined offtake
             solutions, focused domestic LPG distribution, and expert consultancy
